@@ -1,0 +1,11 @@
+@name Test
+@inputs 
+@outputs 
+@persist 
+@trigger 
+
+runOnTick(1)
+
+if (owner():keyPressed("W")){
+    entity():setPos(entity():pos()+vec(20,0,0))
+}

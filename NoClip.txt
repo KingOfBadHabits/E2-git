@@ -1,0 +1,10 @@
+@name NoClip
+@inputs
+@outputs
+@persist
+@trigger
+runOnKeys(owner(),1)
+if(first()){
+}
+if(owner():keyPressed("v")){concmd("ulx_noclip")
+}
